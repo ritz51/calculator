@@ -8,12 +8,17 @@ int sub(int a,int b)
 {
     return a-b;
 }
+int mul(int a, int b)
+{
+    return a*b;
+}
 int main()
 {
-    int a,b,res,res2;
+    int a,b,res,res2,res3;
     cin>>a;
     cin>>b;
     res=add(a,b);
     res2=sub(a,b);
+    res3=mul(a,b);
     return 0;
 }
