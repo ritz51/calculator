@@ -4,11 +4,16 @@ int add(int a,int b)
 {
     return a+b;
 }
+int sub(int a,int b)
+{
+    return a-b;
+}
 int main()
 {
-    int a,b,res;
+    int a,b,res,res2;
     cin>>a;
     cin>>b;
     res=add(a,b);
+    res2=sub(a,b);
     return 0;
 }
